@@ -1,0 +1,205 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-left: 25px;
+    color:rgb(66, 102, 102);
+}
+
+.navbar-nav {
+    background-color: rgb(233, 247, 247);
+}
+
+.nav-link:hover {
+    color:rgb(80, 150, 150)
+}
+
+.container-fluid {
+    background-color:rgb(233, 247, 247);
+}
+
+.col-md-3, .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    background-color:rgb(80, 150, 150);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    min-width: 300px;
+  }
+
+  @media (max-width: 600px) {
+    .col-md-3, .col-3 {
+      flex: 0 0 100%;
+      max-width: 100px;
+      margin-bottom: 15px;
+      padding: 0 5px;
+      font-size: 16px;
+      min-width: 300px;
+
+    }
+  }
+
+  
+  .col-md-12, .col-6 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+
+
+  .accordion-item:nth-child(1) {
+    background-color: rgba(217, 203, 223, 0.986);
+    color: rgb(0, 0, 0);
+  }
+  
+  .accordion-item:nth-child(2) {
+    background-color:rgb(241, 215, 221);
+
+    color: rgb(0, 0, 0);
+  }
+  
+  .accordion-item:nth-child(3) {
+    background-color:rgb(221, 218, 201);
+    color: rgb(0, 0, 0);
+  }
+  
+  #accordionExample {
+    margin-top: 50px;
+  }
+  
+  
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+  }
+  .accordion-header {
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .accordion-button:hover {
+    background-color: darkgrey;
+  }
+
+  #button1 {
+    color:black;
+    margin-left: 2px;
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    box-shadow: none;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .buttonNote {
+    background-color:rgb(80, 150, 150);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color:rgb(66, 102, 102)
+  }
+  
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  li:hover {
+    background-color:rgb(172, 194, 194)
+  }
+  
+  li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+ 
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(173, 170, 170);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .crystalReturn {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .crystalInfo {
+    margin-top: 10px;
+  }
+
+  .row img {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+.crystalUse {
+  border-color:rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+}
